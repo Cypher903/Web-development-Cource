@@ -1,0 +1,9 @@
+>>git init
+>>git status 
+>>git remote add origin "URL" 
+>>git clone "URL"
+>>git add .
+>>git commit -m "Message"
+>>git push origin master 
+>>git checkout -b "branchName"
+>>git checkout "branchName"
