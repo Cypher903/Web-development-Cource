@@ -1,0 +1,38 @@
+.head{
+    color: darkblue;
+}
+body{
+    background-color: rgb(244, 145, 145);
+}
+#bglime{
+    background-color: lime;
+    font-size: 50px;
+}
+#tred{
+    color: red;
+}
+p{
+    color: white;
+}
+#para{
+    color: green;
+}
+#bpara{
+    color: black;
+    font-size: 30px;    
+}
+a{
+    background-color: yellow;
+}
+a:visited{
+    background-color: purple;
+}
+ul{
+color: white;
+}
+ol :nth-child(3){
+    color: blue;
+}
+ol :nth-child(4){
+    color: red;
+}
