@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: initial
+}
+
+img {
+    width: 50vw;
+    height: 100vh;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 50%;
+    background-color: rgba(128, 128, 128, 0.159);
+}
+
+.login h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    padding: 1em 0 0 0;
+    margin: 2em 0 0 0;
+}
+
+.login p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    padding: 0.5em;
+    /* margin: 0 0 2em 0; */
+}
+
+.epass {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.epass input {
+    width: 300px;
+    height: 40px;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    font-size: 16px;
+
+}
+
+.forgot {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.forgot a {
+    font-size: 0.85rem;
+    color: #3a3a5c;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 12px;
+    background: #ffffff;
+    font-size: 0.95rem;
+    font-family: inherit;
+    color: #3a3a5c;
+    outline: none;
+    transition: box-shadow 0.2s;
+}
+
+.register {
+    margin-top: 28px;
+    font-size: 0.88rem;
+    color: #6b7a99;
+    margin: 0;
+}
+
+.register a {
+    color: #1e90e8;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.btn {
+    width: 50%;
+    height: 3em;
+    background-color: #1e90e8;
+    border-radius: 10px;
+    color: white;
+    box-shadow: none;
+    border: none;
+}
